@@ -91,6 +91,7 @@ class _ListScreen extends State<ListScreen>{
           type == "Ghost" ? typecolor=Color.fromARGB(221, 43, 0, 124):"";
           type == "Dragon" ? typecolor=Color.fromARGB(255, 99, 43, 255):"";
           type == "Psychic" ? typecolor=Color.fromARGB(255, 255, 43, 131):"";
+          type == "Flying" ? typecolor=Color.fromARGB(255, 124, 164, 197):"";
 
 
           type2 == "Grass" ? typecolor2=Colors.green:"";
