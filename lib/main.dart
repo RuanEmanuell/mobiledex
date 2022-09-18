@@ -7,8 +7,7 @@ import "package:http/http.dart" as http;
 import "src/pages/home.dart";
 import "src/pages/list.dart";
 import "src/pages/pokemon.dart";
-import "src/pages/search.dart";
-import "src/pages/favorite.dart";
+
 
 void main(){
   runApp(MyApp());
@@ -23,10 +22,7 @@ class MyApp extends StatelessWidget{
       routes:{
         "/home":(context)=>HomeScreen(),
         "/list":(context)=>ListScreen(),
-        "/pokemon":(context)=>PokemonScreen(),
-        "/favorite":(context)=>FavoriteScreen(),
-        "search":(context)=>SearchScreen(),
-        "preload":(context)=>PreloadScreen()
+        "/pokemon":(context)=>PokemonScreen()
       }
     );
   }
