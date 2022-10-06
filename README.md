@@ -1,3 +1,5 @@
+# Veja a versão em Português <a href="README-ptbr.md">aqui</a>
+
 ### Mobiledex
 
 A Pokedex made in Flutter, using the Pokemon GO API
